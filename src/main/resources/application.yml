@@ -1,0 +1,12 @@
+server:
+  port: 8084
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: chaitanya@12
+    url: jdbc:mysql://localhost:3306/myproject
+    username: chaitanya
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
